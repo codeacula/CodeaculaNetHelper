@@ -37,3 +37,41 @@ Codeacula's .Net Helper is a VS Code extension designed to assist in .Net Core d
 
 - The extension will prompt the user for permissions when performing actions, except for format on save.
 - Users can choose to not be prompted again for specific actions.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Conventional Commits
+
+This repository follows the Conventional Commits specification. Please use the following format for commit messages:
+
+```
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
+```
+
+For example:
+
+```
+feat(parser): add ability to parse arrays
+
+- add support for parsing arrays
+- update documentation
+
+BREAKING CHANGE: arrays are now parsed differently
+```
+
+Types allowed:
+
+- **feat**: A new feature
+- **fix**: A bug fix
+- **docs**: Documentation only changes
+- **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- **refactor**: A code change that neither fixes a bug nor adds a feature
+- **perf**: A code change that improves performance
+- **test**: Adding missing or correcting existing tests
+- **chore**: Changes to the build process or auxiliary tools and libraries such as documentation generation
